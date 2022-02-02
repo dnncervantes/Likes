@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: sans-serif;
+}
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.main {
+    display: flex;
+}
+.your-feed {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.title {
+    /* align-content: center; */
+}
+.left-col {
+    flex: 1;
+}
+.right-col {
+    flex: 3;
+}
+.avatar {
+    border: 4px solid black;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 200px;
+    align-items: center;
+}
+.icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.top {
+    border: 4px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.neil {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-evenly;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.move-right {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.likebutton {
+    background-color: #FFD867;
+    color: black;
+    padding: 3px 5px;
+    border: 3px solid black;
+    box-shadow: 2px 3px black;
+}
+.middle {
+    border: 4px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.nichole {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bottom {
+    border: 4px solid black;
+    padding: 10px;
+    padding-left: 20px;
+}
+.jim {
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
